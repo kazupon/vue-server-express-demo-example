@@ -2,6 +2,8 @@
 
 VueServer.js on express demo example
 
+![VueServer.js on express demo example](./demo.gif)
+
 # Node.js version
 - v5.1.0
 
