@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>vue-server express demo example</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>VueServer.js example: <%= type %></h1>
+    <ul>
+      <li>
+        <a href="/hello">hello</a>
+      </li>
+      <li>
+        <a href="/items">items</a>
+      </li>
+      <li>
+        <a href="/mixins">mixins</a>
+      </li>
+      <li>
+        <a href="/precompile">precompile</a>
+      </li>
+    </ul>
+    <div id="app">
+      <%- content %>
+    </div>
+  </body>
+</html>
